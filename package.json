@@ -1,0 +1,20 @@
+{
+  "name": "embed-cache",
+  "version": "0.1.0",
+  "description": "LRU plus on-disk cache for embedding vectors, with compact Float32Array storage",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test test/*.test.ts"
+  },
+  "keywords": ["embeddings", "cache", "lru", "vector", "rag", "float32"],
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.2"
+  },
+  "license": "MIT"
+}
